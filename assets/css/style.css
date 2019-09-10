@@ -1,0 +1,6 @@
+.crystal {
+    height: 50px; width: 50px;
+    background-color: blueviolet;
+    display: inline-block;
+    margin: 5px;
+}
