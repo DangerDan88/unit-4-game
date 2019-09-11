@@ -4,3 +4,15 @@
     display: inline-block;
     margin: 5px;
 }
+
+#gameScore {
+    color: darkgreen;
+    font-size: 33px;
+    
+}
+
+.rules {
+    
+    margin: 5px;
+    padding: 20px;
+}

@@ -6,7 +6,7 @@
 $(document).ready(function() {
     var wins = 0;
 var losses = 0;
-var gameScore = (Math.floor(Math.random() * 130) + 22);
+var gameScore = (Math.floor(Math.random() * 130 - 22) + 22);
 var crystalOne = Math.floor(Math.random() * 12) + 1
 var crystalTwo = Math.floor(Math.random() * 12) + 1;
 var crystalThree = Math.floor(Math.random() * 12) + 1;
@@ -25,14 +25,15 @@ var playerScore = 0;
     playerScore = playerScore + crystalValue;
     $("#playerScore").text(playerScore)
     $("#gameScore").text(gameScore)
+    
     console.log(playerScore);
     if(playerScore === gameScore) {
         wins++
-        console.log("you win");
+        alert("you win");
     }
     else if (playerScore > gameScore) {
         losses++
-        console.log("You suck");
+       alert("You suck");
     }
     })
     
