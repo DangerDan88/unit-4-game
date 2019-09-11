@@ -1,13 +1,13 @@
-.crystal {
+.crystal, img {
     height: 50px; width: 50px;
-    background-color: blueviolet;
+    
     display: inline-block;
     margin: 5px;
 }
 
 #gameScore {
-    color: darkgreen;
-    font-size: 33px;
+    color: deeppink;
+    font-size: 43px;
     
 }
 
@@ -15,4 +15,27 @@
     
     margin: 5px;
     padding: 20px;
+    font-size: 35px;
+    color: gold;
 }
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+    color: crimson;
+}
+
+body {
+    background-image: url("../images/goten.jpg");
+    background-size: 1000px 900px;
+  }
+
+  p2 {
+      font-size: 25px;
+      color: salmon;
+  }
+
+  #playerScore {
+      font-size: 35px;
+      color: crimson;
+  }
