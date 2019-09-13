@@ -27,12 +27,12 @@ $(document).ready(function () {
         console.log(playerScore);
         if (playerScore === gameScore) {
             wins++
-            alert("you win");
+            alert("you win refresh to play again until I figure out a reset lol");
+            
         }
         else if (playerScore > gameScore) {
             losses++
-            alert("You suck");
-            reset();
+            alert("You suck refresh to play again until I figure out a reset lol");
 
         }
     })
